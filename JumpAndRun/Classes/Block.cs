@@ -21,7 +21,7 @@ namespace JumpAndRun
 
             if (type == TypeOfBlock.Player)
             {
-                this.BackColor = Color.Red;
+                this.BackColor = Color.Blue;
                 this.Location = new Point(20, 340);
             } else
             {
