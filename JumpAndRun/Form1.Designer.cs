@@ -29,30 +29,62 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.MovementTimer = new System.Windows.Forms.Timer(this.components);
+            this.WorldTimer = new System.Windows.Forms.Timer(this.components);
+            this.GravityTimer = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // timer1
+            // MovementTimer
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 2000;
-            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            this.MovementTimer.Enabled = true;
+            this.MovementTimer.Interval = 3000;
+            this.MovementTimer.Tick += new System.EventHandler(this.MovementTimer_Tick);
+            // 
+            // WorldTimer
+            // 
+            this.WorldTimer.Enabled = true;
+            this.WorldTimer.Interval = 50;
+            this.WorldTimer.Tick += new System.EventHandler(this.WorldTimer_Tick);
+            // 
+            // GravityTimer
+            // 
+            this.GravityTimer.Enabled = true;
+            this.GravityTimer.Interval = 90;
+            this.GravityTimer.Tick += new System.EventHandler(this.GravityTimer_Tick);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(366, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(23, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "0";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer MovementTimer;
+        private System.Windows.Forms.Timer WorldTimer;
+        private System.Windows.Forms.Timer GravityTimer;
+        private System.Windows.Forms.Label label2;
     }
 }
 

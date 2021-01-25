@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <BackgroundColor>Orange</BackgroundColor>
+  <GroundZero>120</GroundZero>
+  <BlockSize>20</BlockSize>
+  <SpawnPoint>
+    <X>500</X>
+    <Y>20</Y>
+  </SpawnPoint>
+  <GroundBlocks>
+    <X>1000</X>
+  </GroundBlocks>
+  
+  <WorldBlocks>
+    <X>60</X>
+    <Y>20</Y>
+  </WorldBlocks>
+  <WorldBlocks>
+    <X>80</X>
+    <Y>20</Y>
+  </WorldBlocks>
+  <WorldBlocks>
+    <X>80</X>
+    <Y>40</Y>
+  </WorldBlocks>
+  
+  <EnemyBlocks>
+    <X>160</X>
+    <Y>20</Y>
+  </EnemyBlocks>
+  <CollectableBlocks>
+    <X>320</X>
+    <Y>20</Y>
+  </CollectableBlocks>
+  <PortalBlocks>
+    <X>500</X>
+    <Y>20</Y>
+  </PortalBlocks>
+</root>

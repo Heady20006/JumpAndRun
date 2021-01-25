@@ -1,10 +1,14 @@
 C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\bin\Debug\JumpAndRun.exe.config
 C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\bin\Debug\JumpAndRun.exe
 C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\bin\Debug\JumpAndRun.pdb
-C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\obj\Debug\JumpAndRun.csprojAssemblyReference.cache
 C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\obj\Debug\JumpAndRun.Properties.Resources.resources
 C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\obj\Debug\JumpAndRun.csproj.GenerateResource.cache
 C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\obj\Debug\JumpAndRun.csproj.CoreCompileInputs.cache
 C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\obj\Debug\JumpAndRun.exe
 C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\obj\Debug\JumpAndRun.pdb
 C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\obj\Debug\JumpAndRun.Form1.resources
+C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\obj\Debug\JumpAndRun.csprojAssemblyReference.cache
+C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\obj\Debug\JumpAndRun.csproj.CopyComplete
+C:\Users\Fred\source\repos\JumpAndRun\JumpAndRun\bin\Debug\map.xml
